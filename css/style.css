@@ -7063,6 +7063,26 @@ button.bg-dark:focus {
   background-color: transparent !important;
 }
 
+.bg-gray {
+  background-color: #8CA2BF !important;
+}
+
+.bg-orange {
+  background-color: #E34F26 !important;
+}
+
+.bg-blue {
+  background-color: #1172B8 !important;
+}
+
+.bg-green {
+  background-color: #539E43 !important;
+}
+
+.bg-yellow {
+  background-color: #F7DF1E !important;
+}
+
 .border {
   border: 1px solid #dee2e6 !important;
 }
