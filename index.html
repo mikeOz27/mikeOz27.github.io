@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Portafolio - Michael Martinez</title>
+    <title>MikeFolio</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -139,7 +139,7 @@
                 <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
             </div>
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="margin-top: 12px;">
                     <h3 class="mb-4">My Education</h3>
                     <div class="border-left border-primary pt-2 pl-4 ml-2">
                         <div class="position-relative mb-4">
@@ -575,7 +575,7 @@
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form name="contactForm" id="contactForm" novalidate="novalidate">
+                        <form name="contactForm" id="contactForm" action="contact.php" method="POST" novalidate="novalidate">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
                                     <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
@@ -600,7 +600,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton" onclick="openMailApp()">Send
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
                                     Message</button>
                             </div>
                         </form>
@@ -664,7 +664,7 @@
     <script>
         document.getElementById("year").textContent = new Date().getFullYear();
     </script>
-    <script>
+    <!-- <script>
         function openMailApp() {
             document.getElementById('nameError').innerText = '';
 
@@ -684,7 +684,7 @@
                 window.location.href = mailtoLink;
             }
         }
-    </script>
+    </script> -->
 </body>
 
 </html>
